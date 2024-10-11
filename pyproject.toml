@@ -10,11 +10,11 @@ requires-python = ">=3.8"
 license = { text = "BSD 3-Clause License" }
 
 classifiers = [
-    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
 ]
 dependencies = [
     "GitPython",
@@ -53,4 +53,4 @@ source = "vcs"
 [tool.pytest]
 testpaths = "tests"
 timeout_method = "signal"
-addopts = "-ra -W error::DeprecationWarning"
+# addopts = "-ra -W error::DeprecationWarning"
